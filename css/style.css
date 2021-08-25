@@ -1,0 +1,405 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{ 
+    height:100%;
+}
+
+/* header */
+header{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 25px;
+}
+.orden{
+    margin:1rem;
+}
+
+.ofertas {
+    height: 25px;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 100;
+    padding: 0.4rem 0rem 0.4rem 1rem;
+    
+}
+
+.idioma{
+    background-color: black;
+    height: 25px;
+    font-size: 0.7rem;
+    color: white;
+    text-decoration: none;
+    border: black;
+    /* margin-right: 1rem; */
+    background: transparent;
+    border: none;
+}
+
+
+option:hover{
+    /* como sacar azul */
+
+}
+
+.cabezal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E;
+    height: 4rem;
+}
+h1{
+    margin: 1rem;
+    font-style: 700;
+    color:white;
+    font-size: 1.4rem;
+
+}
+
+span{
+    color:#3C2313;
+}
+
+.segundo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E;
+    height: 4rem;
+}
+
+.lista1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E;
+    height: 4rem;
+    list-style: none;
+    /* margin:1rem; */
+}
+
+
+li{
+    margin: 1rem;
+}
+
+.huella{
+    position: absolute;
+    right: 7.7rem;
+    list-style: none;
+}
+.huella1{
+    position: absolute;
+    right: 13.8rem;
+    list-style: none;
+}
+.huella2{
+    position: absolute;
+    right: 17.8rem;
+    list-style: none;
+}
+.huella3{
+    position: relative;
+    right: 24.6rem;
+    list-style: none;
+}
+.plato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    height: 409px;
+}
+h3, button{
+    margin-right: 2rem;
+}
+
+h3{
+    font-size: 2rem;
+
+}
+h5{
+    margin-top: 0.5rem;
+    margin-right:2rem;
+    margin-bottom: 0.5rem;
+}
+
+.fondo{
+    background-color: white;
+    padding: 0.2rem 1rem;
+    border-radius: 0.5rem;
+}
+
+h5{
+    font-size: 1rem;
+}
+
+.plato button{
+    margin-top: 1.5rem;
+    background: #F0A83E;
+    border-radius: 0.4Rem;
+    border-color: #F0A83E ;
+    width: 7rem;
+    height: 49px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:white;
+}
+
+/* Titulo ofertas y nav */
+.destacados{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.destacados img{
+    width: 5%;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.productos{
+    font-size: 2.5rem;
+    color: #3C2313;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.vendemos{
+    position:relative;
+    right:1.5rem;
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    color: #3C2313;
+    margin-top: -0.5;
+}
+a{
+    text-decoration: none;
+    color:#666666;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#3C2313;
+}
+
+/* OFERTAS */
+.vendemos2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.imagenes{
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.titulos3{
+    color: #3C2313;
+    font-size: 1.3rem;
+}
+p{
+    color:  #F0A83E;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.producto{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+form label{
+    color: #3C2313;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.formulario{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem;
+}
+.f{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.contactanos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border:none;
+    width: 28rem;
+    height: 40px;
+    border-radius: 0.4rem;
+    background-color: #3C2313;
+    border: none;
+    padding: 5px;
+    color:white;
+    margin-bottom:0.4rem;
+}
+.botones{ 
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+}
+.resetear{
+width: 9rem;
+height: 40px;
+border-radius: 0.4rem;
+background-color:#8A8787;
+border: none;
+padding: 5px;
+color:white;
+/* margin-right: -0.5rem; */
+}
+
+.enviar{
+width: 9rem;
+height: 40px;
+border-radius: 0.4rem;
+background-color:#F0A83E;
+border: none;
+padding: 5px;
+color:white;
+/* margin-left: -0.5rem; */
+
+}
+
+/* primera PARTE */
+.sectionfooter1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E;
+    height: 50px;
+    font-size: 0.8rem;
+    color:white;
+    font-weight: 100;
+    padding: 0rem 0rem 0rem 1rem;
+    text-transform: uppercase;
+}
+.sectionfooter1 article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionfooter1 button{
+    width: 9rem;
+    height: 40px;
+    border-radius: 0.4rem;
+    background-color: #3C2313;
+    border: none;
+    padding: 5px;
+    color:white;
+
+    
+    
+
+}
+.sectionfooter1 form input{
+    width: 14rem;
+    height: 40px;
+    border-radius: 0.4rem;
+    border: none;
+    margin-right: 0.4rem;
+
+}
+
+
+
+/* SEGUNDA PARTE */
+.dos{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #3C2313;
+    height: 284px;
+    font-size: 0.8rem;
+    color:white;
+    font-weight: 100;
+    padding: 0rem 0rem 0rem 1rem;
+}
+h3 span{
+    font-size: 0.8rem;
+    color:white;
+}
+
+.dos{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+article .iconos{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+    
+    
+}
+
+.abc{
+    padding: 0.5rem;
+}
+
+.clase{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+
+.grande{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+
+.chico{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+    color:white;
+    font-weight: 100;
+    
+}
+
+/* TERCERA PARTE */
+.tres{
+    background-color: black;
+    height: 25px;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 100;
+    padding: 0.4rem 0rem 0.4rem 1rem;
+    text-transform: uppercase;
+}
+
