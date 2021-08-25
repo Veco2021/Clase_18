@@ -122,7 +122,12 @@ li{
     background-repeat: no-repeat;
     height: 409px;
 }
-h3, button{
+h3{
+    margin-right: 2rem;
+}
+
+
+.dddd{
     margin-right: 2rem;
 }
 
@@ -151,7 +156,7 @@ h5{
     background: #F0A83E;
     border-radius: 0.4Rem;
     border-color: #F0A83E ;
-    width: 7rem;
+    width: 8rem;
     height: 49px;
     font-size: 1rem;
     text-transform: uppercase;
@@ -252,7 +257,7 @@ form label{
     border:none;
     width: 28rem;
     height: 40px;
-    border-radius: 0.4rem;
+    border-radius: 2rem;
     background-color: #3C2313;
     border: none;
     padding: 5px;
@@ -265,26 +270,26 @@ form label{
     align-items: center;
     margin-top: 2rem;
 }
-.resetear{
+button.resetear{
 width: 9rem;
 height: 40px;
-border-radius: 0.4rem;
+border-radius: 2rem;
 background-color:#8A8787;
 border: none;
-padding: 5px;
+/* padding-left: 5px; */
 color:white;
-/* margin-right: -0.5rem; */
+margin-right: 0.5rem;
 }
 
-.enviar{
+button.enviar{
 width: 9rem;
 height: 40px;
-border-radius: 0.4rem;
+border-radius: 2rem;
 background-color:#F0A83E;
 border: none;
-padding: 5px;
+/* padding: 5px; */
 color:white;
-/* margin-left: -0.5rem; */
+margin-left: 0.5rem;
 
 }
 
@@ -321,7 +326,7 @@ color:white;
 
 }
 .sectionfooter1 form input{
-    width: 14rem;
+    width: 19rem;
     height: 40px;
     border-radius: 0.4rem;
     border: none;
